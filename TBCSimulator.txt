@@ -7,10 +7,10 @@ Let's make a game!
 	version:0.1
 
 Settings
-	background:https://cdn.discordapp.com/attachments/332013867125440512/887828834244755476/tbcbackground.png
+	background:https://github.com/ThatBlobEbola-chan/TBCSimulator/raw/test/tbcbackground.png
 	building cost increase:200%
 	building cost refund:50%
-	spritesheet:icons, 48 by 48, https://cdn.discordapp.com/attachments/332013867125440512/888132840284389487/spritesheet.png
+	spritesheet:icons, 48 by 48, https://github.com/ThatBlobEbola-chan/TBCSimulator/raw/test/spritesheet.png
 	stylesheet:stuff/basic.css
 
 CSS
@@ -82,7 +82,7 @@ Buttons
 		on click:anim icon wobble
 		on click:yield 1 zooTesticle
 		on click:if (have hooploniumGet and chance(1%)) yield 1 hooplaShard
-		icon:https://cdn.discordapp.com/attachments/332013867125440512/887858196868390993/bigtesticle.png
+		icon:https://github.com/ThatBlobEbola-chan/TBCSimulator/raw/test/bigtesticle.png
 		no text
 		class:bigButton bigZoot hasFlares
 		icon class:shadowed
@@ -110,7 +110,7 @@ Shinies
 		movement:grow anywhere randomAngle fade
 		frequency:60
 		frequency variation:30
-		icon:https://cdn.discordapp.com/attachments/332013867125440512/887842701230374922/bustednut.png
+		icon:https://github.com/ThatBlobEbola-chan/TBCSimulator/raw/test/bustednut.png
 		class:bigButton
 		on click:
 			$boost=1
